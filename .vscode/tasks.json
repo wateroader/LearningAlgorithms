@@ -1,0 +1,19 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "g++",
+            "command": "D:\\Scoop\\User\\apps\\dev-cpp\\current\\MinGW64\\bin\\g++.exe",
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "D:\\Scoop\\User\\apps\\dev-cpp\\current\\MinGW64\\bin"
+            }
+        }
+    ],
+    "version": "2.0.0"
+}
